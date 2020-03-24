@@ -18,6 +18,7 @@ Route::get('/welcome', function () {
 });
 
 
-Route::get('/productList', 'ProductListController');
-Route::get('/productSheet', 'ProductSheetController');
+Route::get('/productList', 'ProductController@productListf');
+Route::get('/productSheet', 'ProductController@productSheetf');
 Route::get('/cartShopping', 'cartShoppingController');
+
